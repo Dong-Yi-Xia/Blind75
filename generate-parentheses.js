@@ -54,6 +54,8 @@ var generateParenthesis = function(n) {
             stack.pop()    
         }
 
+        // (,(,(,),),) been reached, pop() until the next valid condition, (,(,),
+
         //Can keep adding ) as long closed is less than open
         if(closedN < openN){
             stack.push(')')
