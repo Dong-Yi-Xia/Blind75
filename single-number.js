@@ -40,6 +40,7 @@ Constraints:
 var singleNumber = function (nums) {
   let res = 0;
 
+  //Bitwise XOR (^) Operation 
   for (let n of nums) {
     res ^= n;
   }
