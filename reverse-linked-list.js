@@ -49,6 +49,8 @@ Constraints:
 //   this.next = next === undefined ? null : next;
 // }
 
+
+// Need a prev and curr, 2 pointer.
 // Time - o(n)
 // Space - o(1)
 

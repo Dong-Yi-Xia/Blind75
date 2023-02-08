@@ -38,6 +38,15 @@ Constraints:
 
 */
 
+
+// list are ORDERED
+// create a start dummy node
+// keep track with a tail node
+// while both list are not empty
+// if 1 is empty apprend the rest to the dummy node
+
+// Time - o(n)
+
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
