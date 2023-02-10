@@ -100,7 +100,7 @@ var groupAnagrams = function(strs) {
         let sum = []
         for(let i=0; i<word.length; i++){
             sum.push(word.charCodeAt(i))
-        }
+        }   
         sum.sort((a,b) => a-b)
         sum = sum.join("")
      
